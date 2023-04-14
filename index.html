@@ -321,10 +321,22 @@
     </svg> </button> 
     <p class="modal-title">Leave your contacts and we will call you back</p>
     <form class="modal-form">
-    <input type="text" name="user-name" class="modal-input" placeholder="Enter name"/>
-    <input type="text" name="user-phone" class="modal-input" placeholder="Enter phone"/>
-    <input type="text" name="user-email" class="modal-input" placeholder="Enter email"/>
-    <input type="text" name="user-comment" class="modal-input-comment" placeholder="Enter comment"/>
+<div class="modal-field">
+    <label for="user-name" class="input-text">Name</label>
+    <input type="text" id="user-name" name="user-name" class="modal-input" placeholder="" required title="Іван Іванович"/>
+</div>
+<div class="modal-field">
+ <label for="user-tel" class="input-text">Phone</label>
+ <input type="tel" id="user-tel" name="user-phone" class="modal-input" placeholder="" required/>
+</div>
+<div class="modal-field">
+    <label for="user-email" class="input-text">Email</label>
+    <input type="email" id="user-email" name="user-email" class="modal-input" placeholder="txt@gml.com" required/>
+</div>
+<div class="modal-field">
+    <label for="user-comment" class="input-text">Comment</label>
+    <input type="text" id="user-comment" name="user-comment" class="modal-input" placeholder="text"/>
+ </div>
     <button type="submit">Send</button>
     </form>
 </div>

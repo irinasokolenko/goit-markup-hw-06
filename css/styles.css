@@ -721,7 +721,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     margin-bottom: 24px;
-    margin-top: 34px;
     padding-left: 40px;
     outline: ;
   
@@ -730,12 +729,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     border: #4D5AE5;
 } 
 .modal-input::placeholder{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
+   
 }
 .modal-input:focus{
     border: #4D5AE5;
@@ -748,6 +742,16 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-top: 34px;
     padding-left: 40px;
     outline: ;
+}
+.input-text{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
+    margin-bottom: 5px;
 }
 
    
