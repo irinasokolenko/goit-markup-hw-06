@@ -734,15 +734,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .modal-input:focus{
     border: #4D5AE5;
 }
-.modal-input-comment{
-    width: 100%;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    margin-bottom: 24px;
-    margin-top: 34px;
-    padding-left: 40px;
-    outline: ;
-}
 .input-text{
     display: inline-block;
     font-style: normal;
@@ -752,6 +743,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 5px;
+}
+.modal-icon{
+    position: absolute;
+    left: 5px;
 }
 
    
