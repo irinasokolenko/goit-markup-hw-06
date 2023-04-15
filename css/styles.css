@@ -716,16 +716,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     color: #2E2F42;
     margin-top: 32px;
 }
+.modal-field{
+    margin-bottom: 24px;
+}
 .modal-input{
     width: 100%;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    margin-bottom: 24px;
     padding-left: 40px;
     outline: ;
-    Height: 40px;
-    Top: 18px;
-  
 }
 .modal-input::placeholder:focus{
     border: #4D5AE5;
@@ -750,14 +749,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     position: absolute;
     left: 5px;
     top: 50%;
-    transform: translateY(-100%);
-    line-height: 16px;
-    letter-spacing: 0.04em;
-    margin-left: 19px;
-    margin-bottom: 14px;
+    transform: translateY(-50%);
 }
-.imput-wrap{
-    position: relative;
+.input-wrap{
+    position: absolute;
 }
 
    
