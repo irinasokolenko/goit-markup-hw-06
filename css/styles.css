@@ -705,6 +705,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px
   rgba(46, 47, 66, 0.08);
 }
+.modal-form{
+}
 .modal-title{
     font-family: 'Roboto';
     font-style: normal;
@@ -714,19 +716,24 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-top: 32px;
+    margin-bottom: 16px;
+    margin-top: 72px;
 }
-.modal-field{
-    margin-bottom: 24px;
+.modal-field:not(:first-child){
+    margin-bottom: 26px;
+    margin-top: 26px;
+   
+   
 }
 .modal-input{
-    width: 100%;
+    width: 360px;
+    height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     padding-left: 40px;
+    margin-top: 4px;
+    margin-bottom: 26px;
     outline:transparent;
-
-
 }
 .modal-input::placeholder{
 }
@@ -744,16 +751,22 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     line-height: 14px;
     letter-spacing: 0.04em;
     color: #8E8F99;
-    margin-bottom: 5px;
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-right: 38px;
+    margin-bottom: 4px;
+    margin-top: 8px;
 }
 .modal-icon{
     position: absolute;
-    left: 5px;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
 }
 .input-wrap{
     position: absolute;
+    margin-right: ;
 }
 .modal-textarea{
     width: 100%;
@@ -766,6 +779,23 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     padding-top: 30px;
     padding: 10px;
     resize: none;   
+}
+.modal-send{
+display: flex;
+width: 169px;
+height: 56px;
+background: #404BBF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+padding: 16px 32px;
+color: var(--main-white-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+align-items: center;
+justify-content: center;
+letter-spacing: 0.04em;
+border: none;
 }
 
    
