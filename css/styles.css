@@ -751,8 +751,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: 0.04em;
     color: #8E8F99;
     padding-top: 16px;
-    padding-left: 8px;
-    padding-right: 8px;
+   
+   
     padding-right: 38px;
     margin-bottom: 4px;
     margin-top: 8px;
@@ -781,10 +781,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     padding: 10px;
     resize: none; 
     margin-top: 4px;
-    align-items: center;
-    text-align: center;
-   
-}
+ }
 .modal-send{
     font-family: 'Roboto';
     font-style: normal;
