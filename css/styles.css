@@ -719,10 +719,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-top: 32px;
 }
 .modal-field:not(:first-child){
-    margin-bottom: 26px;
     margin-top: 26px;
-   
-   
 }
 .modal-input{
     width: 360px;
@@ -751,8 +748,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     letter-spacing: 0.04em;
     color: #8E8F99;
     padding-top: 16px;
-   
-   
     padding-right: 38px;
     margin-bottom: 4px;
     margin-top: 8px;
@@ -765,7 +760,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-top: auto;
 }
 .input-wrap{
-   
     position: absolute;
     padding-left:px;
 }
@@ -783,43 +777,48 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     margin-top: 4px;
  }
 .btn-send{
+    display: block;
     width: 169px;
     height: 56px;
     background: var(--main-title-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: transparent;
     border-radius: 4px;
-    padding: 16px 32px;
-    color: var(--main-white-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    border-color: transparent;
-    
-}
+    color: var(--main-white-color);
+    transition: background-color var(--main-title-color);
+    margin-left: auto;
+    margin-right: auto;
+ }
 .practice-txt{
  width: 338px;
- height: 16px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.17px;
-letter-spacing: 0.04em;
-color: #8E8F99;
-border-top: 16pxx;
-border-bottom: 24px;
+  font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 12px;
+ line-height: 1.17px;
+ letter-spacing: 0.04em;
+ color: #8E8F99;
+ border-top: 16px;
+ border-bottom: 24px;
 }
-.modal-send{
-    text-align:center;
-    border-bottom: 100%;
- }
-.practice-txt::before{
-     width: 16px;
-     height: 16px;
-     border: 1px solid rgba(46, 47, 66, 0.4);
-     border-radius: 2px;
+
+ .practice-txt::before{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
+.checkbox-privacy{
+    margin-bottom: 24px;
+}
+.practice-txtcheck:checked + .input-check::before{
+    border: none;
+    background-color: var(--second-okean-color);
+    background-image: url(../images/icons.svg#icon-Property-1click")
 }
 
    
