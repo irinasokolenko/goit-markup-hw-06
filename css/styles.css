@@ -716,8 +716,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    margin-bottom: 16px;
-    margin-top: 72px;
+    margin-top: 32px;
 }
 .modal-field:not(:first-child){
     margin-bottom: 26px;
@@ -781,21 +780,33 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     resize: none;   
 }
 .modal-send{
-display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: var(--main-white-color);
+    justify-content: center;
+
+}
+.btn-send{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 32px;
+gap: 10px;
+position: absolute;
 width: 169px;
 height: 56px;
-background: #404BBF;
+left: 635px;
+top: 584px;
+background:var(--main-title-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-padding: 16px 32px;
-color: var(--main-white-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-align-items: center;
-justify-content: center;
-letter-spacing: 0.04em;
-border: none;
 }
 
    
