@@ -764,6 +764,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transform: translateY(-50%);
 }
 .input-wrap{
+    width: 100%;
     position: absolute;
     margin-right: ;
 }
@@ -789,9 +790,11 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
-    color: var(--main-white-color);
+    border-color: var(--main-white-color);
     justify-content: center;
-
+    text-align: center;
+    justify-content: center;
+    
 }
 .btn-send{
     display: flex;
@@ -807,6 +810,7 @@ top: 584px;
 background:var(--main-title-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+display: block;
 }
 
    
