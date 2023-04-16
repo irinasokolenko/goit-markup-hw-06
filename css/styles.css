@@ -817,6 +817,17 @@ border-right: 120px;
 align-items: center;
     text-align: center;
 }
+.practice-txt{
+ width: 338px;
+ height: 16px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.17px;
+letter-spacing: 0.04em;
+color: #8E8F99;
+}
 
    
     
