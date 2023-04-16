@@ -782,41 +782,21 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     resize: none; 
     margin-top: 4px;
  }
-.modal-send{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    display: flex;
-     letter-spacing: 0.04em;
-   color: var(--main-white-color);
-   background:var(--main-title-color);
-    justify-content: center;
-    cursor: pointer;
-    margin-left: 32px;
-    margin-bottom: 16px;
-    border-color: transparent;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    position: absolute;
+.btn-send{
     width: 169px;
     height: 56px;
-    left: 635px;
-    top: 584px;
-    background:var(--main-title-color);
+    background: var(--main-title-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    display: block;
-    border-top: 24px;
-    border-bottom: 24px;
-    border-left: 120px;
-    border-right: 120px;
-    align-items: center;
-    text-align: center;
+    padding: 16px 32px;
+    color: var(--main-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-color: transparent;
+    
 }
 .practice-txt{
  width: 338px;
@@ -830,6 +810,16 @@ letter-spacing: 0.04em;
 color: #8E8F99;
 border-top: 16pxx;
 border-bottom: 24px;
+}
+.modal-send{
+    text-align:center;
+    border-bottom: 100%;
+ }
+.practice-txt::before{
+     width: 16px;
+     height: 16px;
+     border: 1px solid rgba(46, 47, 66, 0.4);
+     border-radius: 2px;
 }
 
    
