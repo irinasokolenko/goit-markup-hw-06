@@ -579,6 +579,9 @@ color:var(--fon-cloud-color)
     color: #FFFFFF;
      margin-bottom: 16px;
   }
+  .input-name{
+    color: var(--main-white-color);
+  }
 
      /**button portfolio**/
 
