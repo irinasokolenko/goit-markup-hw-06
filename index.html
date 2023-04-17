@@ -355,8 +355,14 @@
     <label for="user-comment" class="input-text">Comment<textarea name="user-comment" placeholder="Text input" id="user-comment" cols="30" rows="10" class="modal-textarea"></textarea></label>
     </div>
       <div class="checkbox-privacy">
-     <input type="checkbox" name="type" id="privacy" value="privacy" class="input-check" value="tru"/>
-        <label for="privacy" class="practice-txt">I accept the terms and conditions of the <a href=""> Privacy Policy</a></label>
+     <input type="checkbox" name="type" id="privacy" value="privacy" class="input-check visually-hidden" value="tru"/>
+        <label for="privacy" class="practice-txt">
+            <span>
+                <svg class="practice-txt" width="10" height="8">
+                    <use href="./images/icons.svg#icon-Vector-2"></use>
+                </svg> 
+            </span>
+            I accept the terms and conditions of the <a href=""> Privacy Policy</a></label>
      </div>
         <button type="submit" class="btn-send">Send</button>
      </form>

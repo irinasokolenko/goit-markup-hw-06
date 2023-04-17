@@ -815,11 +815,31 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .checkbox-privacy{
     margin-bottom: 24px;
 }
-.practice-txtcheck:checked + .input-check::before{
+.practice-txt span{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.input-check:checked + .practice-txt span{
+    background-color: var(--main-title-color);
+    border: none;
+    fill: #F4F4FD;
+}
+/*
+.practice-txt check:checked + .input-check::before{
     border: none;
     background-color: var(--second-okean-color);
-    background-image: url(../images/icons.svg#icon-Property-1click")
-}
+    background-image: url(../images/symbol-defs_4svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
 
    
     
