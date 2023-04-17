@@ -581,11 +581,22 @@ color:var(--fon-cloud-color)
   }
   .input-name{
     color: var(--main-white-color);
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
   }
   .online-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .online-field {
     position: relative;
+    margin-left: 88px;
+    margin-bottom: 132px;
 }
 .input-name {
 }
@@ -595,9 +606,9 @@ color:var(--fon-cloud-color)
     border: none;
     border-bottom: 1px solid #FFFFFF;
     background-color: transparent;
-
 }
 .online-label {
+    display: block;
     position: absolute;
     font-style: normal;
     top: 0;
@@ -610,12 +621,37 @@ color:var(--fon-cloud-color)
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    margin-top: 8px;
+    margin-top: 24px;
     margin-left: 16px;
 }
 .btn {
+    display: flex;
+}
+.svg-button{
+    color: #FFFFFF;
+    margin-left: 16px;
 }
 .online-btn {
+    display: flex;
+    width: 165px;
+    height: 40px;
+    background-color: #4D5AE5;
+    margin-left: 16px;
+    margin-top: 40px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.04em;
+    border: 0;
+    transition-property: background-color;
+    color: #FFFFFF;
+
 }
 
      /**button portfolio**/
@@ -843,6 +879,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
  color: #8E8F99;
  border-top: 16px;
  border-bottom: 24px;
+ display: flex;
+ align-items: center;
 }
 
  .practice-txt::before{
