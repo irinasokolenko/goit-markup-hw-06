@@ -582,6 +582,24 @@ color:var(--fon-cloud-color)
   .input-name{
     color: var(--main-white-color);
   }
+  .online-form {
+}
+.online-field {
+}
+.input-name {
+}
+.online-input {
+    width: 264px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;;
+}
+.online-label {
+}
+.btn {
+}
+.online-btn {
+}
 
      /**button portfolio**/
 
