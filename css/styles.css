@@ -585,6 +585,7 @@ color:var(--fon-cloud-color)
   .online-form {
 }
 .online-field {
+    position: relative;
 }
 .input-name {
 }
@@ -592,9 +593,25 @@ color:var(--fon-cloud-color)
     width: 264px;
     height: 40px;
     border: none;
-    border-bottom: 1px solid #FFFFFF;;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+
 }
 .online-label {
+    position: absolute;
+    font-style: normal;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 2.0;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    margin-top: 8px;
+    margin-left: 16px;
 }
 .btn {
 }
