@@ -608,6 +608,9 @@ color:var(--fon-cloud-color)
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
 }
+.online-input::placeholder{
+    color: #FFFFFF;
+}
 .online-label {
     display: block;
     position: absolute;
