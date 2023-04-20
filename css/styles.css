@@ -507,10 +507,8 @@ padding-bottom: 32px;
  
  /*footer*/
  .footer-container{
-   
-    background-color: var(--second-title-color);
+ background-color: var(--second-title-color);
  padding-top: 100px;
- padding-bottom: 100px;
  }
  .footer-bottom-link {
  display: flex;
@@ -604,6 +602,7 @@ color:var(--fon-cloud-color)
     width: 264px;
     height: 40px;
     border: none;
+    padding-left: 16px;
     background-color: transparent;
     border: 1px solid #FFFFFF;
     color: #FFFFFF;
@@ -627,6 +626,7 @@ color:var(--fon-cloud-color)
     letter-spacing: 0.04em;
     margin-top: 24px;
     margin-left: 16px;
+    border-radius: 4px;
     
 }
 .btn {
