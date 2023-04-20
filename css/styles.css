@@ -509,6 +509,7 @@ padding-bottom: 32px;
  .footer-container{
  background-color: var(--second-title-color);
  padding-top: 100px;
+ padding-bottom: 100px;
  }
  .footer-bottom-link {
  display: flex;
@@ -593,8 +594,7 @@ color:var(--fon-cloud-color)
 }
 .online-field {
     position: relative;
-    margin-left: 88px;
-    margin-bottom: 132px;
+    margin-left: 80px;
 }
 .input-name {
 }
@@ -611,22 +611,7 @@ color:var(--fon-cloud-color)
     color: #FFFFFF;
 }
 .online-label {
-    display: block;
-    position: absolute;
-    font-style: normal;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    color: #FFFFFF;
-    font-size: 12px;
-    line-height: 2.0;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    margin-top: 24px;
-    margin-left: 16px;
-    border-radius: 4px;
+  
     
 }
 .btn {
@@ -654,9 +639,17 @@ color:var(--fon-cloud-color)
     letter-spacing: 0.04em;
     border: 0;
     transition-property: background-color;
-    color: #FFFFFF;
+    color: #FFFFFF;transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   
+   .online-btn:hover,
+   .online-btn:focus { 
+       background-color: var(--second-okean-color);
+   }
 
-}
+
 
      /**button portfolio**/
 
@@ -800,8 +793,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 .modal-field:not(:first-child){
     margin-top: 8px;
 }
-.modal-field{
-    margin-bottom: 16px;
+.modal-field-comment{
+   margin-bottom: 16px;
+   margin-top: 8px;
 }
 .modal-input{
     width: 360px;
@@ -876,8 +870,16 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transition: background-color var(--main-title-color);
     margin-left: auto;
     margin-right: auto;
- }
-.practice-txt{
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+   }
+   
+   .btn-send:hover,
+   .btn-send:focus { 
+       background-color: var(--second-okean-color);
+   }
+  
+ .practice-txt{
   font-family: 'Roboto';
  font-style: normal;
  font-weight: 400;
